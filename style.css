@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    /* padding: 10px; */
+}
+
+.right {
+    width: 75vw;
+}
+
+.home ul li {
+    display: flex;
+    list-style: none;
+    width: 20px;
+    gap: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.logo img {
+    padding: 10px;
+    width: 100px;
+    height: 32px;
+}
+
+.library {
+    min-height: 67vh;
+    position: relative;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 11px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.heading img {
+    width: 25px;
+}
+
+.footer{
+    display: flex;
+    color: rgb(97, 97, 97);
+    gap: 13px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1b9d1;
+}
+
+.header>* {
+    padding: 10px;
+}
+
+.right {
+    margin: 8px 1px;
+    position: relative;
+}
+
+.tijoriPlaylists {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 16px;
+}
+
+.tijoriPlaylists .card {
+    width: 190px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgba(241, 185, 209, 0.65);
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.cardContainer {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 67vh;
+    overflow-y: scroll;
+}
+
+.play {
+    width: 28px;
+    height: 28px;
+    background-color: #f1b9d1;
+    border-radius: 50%;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 144px;
+    right: 20px;
+}
+
+.buttons >*{
+    margin: 0px 13px;
+}
+.signupbtn{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    background-color: #f1b9d1;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signupbtn:hover{
+    font-size: 14.4px;
+    /* font-size: 1.1fr; */
+    color: white;
+}
+
+.loginbtn{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 32px;
+    width: 92px;
+    /* margin: 0px; */
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    font-size: 15.3px;
+      /* width: 93px;  */
+    padding: 10px 11px; 
+    background-color: black;
+    color: white;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: #f1b9d1;
+    width: 93%;
+    padding: 10px 18px;
+    /* border-radius: 7px; */
+}
+
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
